@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #f2f6ff;
+            margin: 0%;
+            padding: 16px;
+        }
+        .social_icon{
+            width: 50px; 
+            height: 50px; 
+            padding: 16px 16px 32px 32px ;
+        }
+        form{
+            background-color: white;
+            width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            border: 1px solid #ccc;
+          
+        }
+        .form_heading{
+            font-size: 32px;
+            padding-top: 56px;
+            padding-bottom: 32px;
+        }
+        #social_wrapper{
+            background-color: #f2f6ff;
+            padding: 24px;
+            
+        }
+        #input_wrapper{
+           padding: 80px 80px 40px 80px;
+        }
+        .input_box{
+            font-size: 18px;
+            padding-bottom: 12px;
+            margin-bottom: 36px;
+            border: 0;
+            border-bottom: 1px solid #ccc;
+            width: 100%;
+        }
+        .btn_login{
+            background-color: #0056ff;
+            padding: 12px 24px 12px 24px;
+            font-size: 18px;
+            color: white;
+            border:none;
+        }
+
+    </style>
+</head>
+<body>
+    <form>
+        <h1 class="form_heading">Login</h1>
+        <div id = "social_wrapper">
+            <img class="social_icon" src="https://img.icons8.com/color/240/000000/google-logo.png" alt=""/>
+            <img class="social_icon" src="https://img.icons8.com/fluent/240/000000/facebook-new.png" alt=""/>
+            <img class="social_icon" src="https://img.icons8.com/fluent/240/000000/github.png"/>
+            <img class="social_icon" src="https://img.icons8.com/color/240/000000/linkedin.png" alt=""/>
+        </div>
+        <div id="input_wrapper">
+            <div>
+                <input class="input_box" type="text" name="username" placeholder="Username" required autofocus autocomplete="on">
+            </div>
+            <div>
+                <input class="input_box" type="email" name="email" placeholder="Email" required autofocus autocomplete="on">
+            </div>
+            <div>
+                <input class="input_box" type="password" name="password" placeholder="Password" required autofocus autocomplete="on">
+            </div>
+            <div>
+                <input class="input_box" type="password" name="confirm_password" placeholder="Confirm Password" required autofocus autocomplete="on">
+            </div>
+            <div>
+                <input class="btn_login" type="submit" name="login" value="login">
+            </div>
+        </div>
+    </form>
+    
+</body>
+</html>

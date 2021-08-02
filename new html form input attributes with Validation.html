@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new html form input attributes</title>
+</head>
+<body>
+     <form method="POST">
+        <fieldset>
+            <legend>Personal Data</legend>
+            <div> 
+               <label  for="username">Full name:</label><br>
+               <input   type="text" name="username" placeholder="Enter your full name " autofocus required autocomplete="on" ><br>
+           </div>
+           <div> 
+            <label  for="age">Age:</label><br>
+            <input   type="number" name="age" placeholder="Enter your age" autofocus required  min="10" max="36"><br>
+        </div>
+           <div>
+               <label  for="email">Email:</label><br>
+               <input  type="email" name="email" placeholder="Enter your Email" required><br>
+           </div>
+           <div>
+               <label for="password">Password:</label><br>
+               <input  type="password" name="password" placeholder="Enter your password" required maxlength="8"><br>
+           </div>
+           <div>
+               <label  for="Confirm_Password">Confirm Password:</label><br>
+               <input  type="password" name="Confirm_Password" placeholder="Confirm your password" required maxlength="8"><br>
+           </div>
+           <div>
+            <label  for="Security_Question">Security Question:</label><br>
+            <select  name="Security_Question" multiple>for drop down menu we also use select tag
+            <option value="option">for option we use option tag in forms</option>
+            <option value="first_school_name">What was your first School name</option>
+            <option value="nick_name">What is your nick name</option>
+            </select>
+        </div>
+        <div>
+            <textarea class="input_item" name="answers" rows="6" cols="30"></textarea>
+        </div>
+        <div>
+            <input  type="submit" value="Register">
+        </div>
+    </fieldset>
+     </form>
+</body>
+</html>

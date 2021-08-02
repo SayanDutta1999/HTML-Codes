@@ -1,0 +1,84 @@
+#btn_login
+{
+    background-color: aquamarine;
+    padding: 8px 16px;
+    border:none;
+    border-radius: 23px;
+    outline: none;
+    cursor: pointer;
+}
+
+#btn_login:hover
+{
+    background-color: darkblue;
+    color: white;
+}
+
+#btn_Signup
+{
+    background-color: aquamarine;
+    padding: 8px 16px;
+    border:none;
+    border-radius: 23px;
+    outline: none;
+    cursor: pointer;
+}
+
+#btn_Signup:hover
+{
+    background-color: darkblue;
+    color: white;
+}
+
+#btn_Disable
+{
+    background-color: aquamarine;
+    padding: 8px 16px;
+    border:none;
+    border-radius: 23px;
+    outline: none;
+    cursor: not-allowed;
+    opacity: 0.6;
+    margin-right: 100px;
+}
+
+
+
+
+#btn_Facebook
+{
+    background-color: #4267B2;
+    color: whitesmoke;
+    padding: 8px 16px;
+    border:none;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    display:inline;
+}
+#btn_Google
+{
+    background-color: #DB4437;
+    color: whitesmoke;
+    padding: 8px 16px;
+    border:none;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    visibility: inline;
+}
+#btn_Github
+{
+    background-color:  #4078c0;
+    color: whitesmoke;
+    padding: 8px 16px;
+    border:none;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    display: inline;
+}
+.label
+{
+    padding-left: 8px; 
+}

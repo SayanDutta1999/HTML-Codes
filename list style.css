@@ -1,0 +1,11 @@
+#order_list
+{
+     list-style-type: upper-alpha;
+     width: 500px;
+     list-style-position:initial;
+}
+
+#unorder_list
+{
+    list-style-type:decimal-leading-zero;
+}

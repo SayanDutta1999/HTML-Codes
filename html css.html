@@ -1,0 +1,95 @@
+<!--CSS stands for Cascading Style Sheets.
+
+CSS saves a lot of work. It can control the layout of multiple web pages all at once.What is CSS?
+Cascading Style Sheets (CSS) is used to format the layout of a webpage.
+
+With CSS, you can control the color, font, the size of text, the spacing between elements, 
+how elements are positioned and laid out, 
+what background images or background colors are to be used, 
+different displays for different devices and screen sizes, and much more!
+
+Tip: The word cascading means that a style applied to a parent element will also apply to all children elements within the parent. 
+So, if you set the color of the body text to "blue", all headings, paragraphs,
+and other text elements within the body will also get the same color (unless you specify something else)!
+
+Using CSS
+CSS can be added to HTML documents in 3 ways:
+
+Inline - by using the style attribute inside HTML elements
+Internal - by using a <style> element in the <head> section
+External - by using a <link> element to link to an external CSS file
+The most common way to add CSS, is to keep the styles in external CSS files. 
+However, in this tutorial we will use inline and internal styles, because this is easier to demonstrate, 
+and easier for you to try it yourself.
+-->
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title><b>My first html css </b></title>
+<!--Internal CSS-->
+<!--<style> 
+body {background-color:powderblue;}
+h1 {text-align:center;} 
+
+
+</style> -- >
+<! -- External CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+
+<a style="color:blue;" style="font-size:70px;" title="this is my html" href="1st html page.html"> 
+     click this link to go 1st html page.html <br> 
+</a>
+<a style="color:blue;" style="font-size:70px:" href="HTML color.html">
+    click here to go HTML color.html
+</a>
+
+<h2><b>My first html css </b></h2>
+
+<h2>Use the CSS border property for borders</h2>
+<h2>Use the CSS padding property for space inside the border</h2>
+<h1>Use the CSS margin property for space outside the border</h2>
+<!--Inline CSS-->
+<pre style="font-size:large;">
+    Inline CSS
+    An inline CSS is used to apply a unique style to a single HTML element.
+    
+    An inline CSS uses the style attribute of an HTML element.
+    
+    The following example sets the text color of the {h1} element to blue, and the text color of the {p} element to red:</pre>
+<h1 style="color:blue;">A Blue Heading</h1>
+
+
+<p style="color:red;">A red paragraph.</p> 
+
+<!--Internal CSS-->
+
+<pre style="font-size: large;">Internal CSS
+    An internal CSS is used to define a style for a single HTML page.
+    
+    An internal CSS is defined in the {head} section of an HTML page, within a {style} element.
+    
+    The following example sets the text color of ALL the {h1} elements (on that page) to blue, 
+    and the text color of ALL the {p} elements to red. In addition, the page will be displayed with a "powderblue" background color: </pre>
+
+<h1>A Blue Heading</h1>
+<p>A red paragraph.</p>
+
+<!-- External CSS -->
+
+<pre style="font-size: large;">External CSS
+    An external style sheet is used to define the style for many HTML pages.
+    
+    To use an external style sheet, add a link to it in the <head> section of each HTML page:</pre>
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+
+</body>
+</html>

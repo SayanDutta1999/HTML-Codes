@@ -1,0 +1,38 @@
+body
+{
+    margin: 0%;
+}
+
+#top_bar
+{
+    background-color: lightblue;
+    padding: 24px 48px;
+}
+
+.menu_item
+{
+
+    font-size: 24px;
+    color: black;
+    margin-right: 24px;
+    text-decoration: none;
+}
+
+.menu_item:link
+{
+    color:blue;
+}
+
+.menu_item:visited
+{
+    color: green;
+}
+
+.menu_item:hover{
+    color: red;
+}
+
+.menu_item:active
+{
+    color: purple;
+}

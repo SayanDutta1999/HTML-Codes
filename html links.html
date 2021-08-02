@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> HTML LINKS </title>
+
+<style> 
+body {background-color:powderblue;}
+a:link {
+  color: rgb(6, 143, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(3, 18, 224);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+  padding: 2px 2px 2px 2px;
+}
+a:active {
+  color: rgb(135, 67, 212);
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:increment {
+  color: rgb(135, 67, 212);
+  background-color: transparent;
+  text-decoration: underline;
+}
+.buttom-link{
+  background-color: #f44336 !important;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position:center;
+}
+</style>
+
+<!--<link rel="stylesheet" href="style.css"> -->
+
+</head>
+
+<body>
+<p> HTML LINKS </p>
+
+<pre style="font-size: large;">By default, links will appear as follows in all browsers:
+
+An unvisited link is underlined and blue
+A visited link is underlined and purple
+An active link is underlined and red 
+HTML Links - The target Attribute
+By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link.
+
+The target attribute specifies where to open the linked document.
+
+The target attribute can have one of the following values:
+
+_self - Default. Opens the document in the same window/tab as it was clicked
+_blank - Opens the document in a new window or tab
+_parent - Opens the document in the parent frame
+_top - Opens the document in the full body of the window</pre>
+
+<div>
+<p>Blank</p>
+<p><a target="_blank" title="W3 School in _blank" href="https://www.w3schools.com/html/html_links.asp">https://www.w3schools.com<br></a></p>
+<p>_self</p>
+<P><a target="_self" title="W3 School in _self" href="https://www.w3schools.com/html/html_links.asp">https://www.w3schools.com<br></a></p>
+<p>_parent</p>
+<p><a target="_parent" title="W3 School in _parent" href="https://www.w3schools.com/html/html_links.asp">https://www.w3schools.com<br></a></p>
+<p>_top</p>
+<p><a target="_top" title="W3 School in _top" href="https://www.w3schools.com/html/html_links.asp">https://www.w3schools.com</a></p>
+</div>
+<pre style="font-size: large;">Absolute URLs vs. Relative URLs
+Both examples above are using an absolute URL (a full web address) in the href attribute.
+A local link (a link to a page within the same website) is specified with a relative URL (without the "https://www" part):</pre>
+
+<h2>Absolute URLs</h2>
+<p><a href="https://www.w3.org/">W3C</a></p>
+<p><a href="https://www.google.com/">Google</a></p>
+
+<h2>Relative URLs</h2>
+<p><a href="1st html page.html">1st html page.html</a></p>
+<p><a href="HTML color.html">HTML color.html</a></p>
+
+<pre style="font-size: large;">HTML Links - Use an Image as a Link
+To use an image as a link, just put the <img> tag inside the <a> tag:</pre>
+
+    <h2>Image as a Link</h2>
+
+    <p>The image below is a link. Try to click on it.</p>
+    
+    <a href="https://www.google.com/"><img src="art.jpg" alt="GOOGLE" style="float:left; width: 150px;height: 150px;">hello</a><br>
+
+<pre style="font-size: large;"> Link to an Email Address
+    Use mailto: inside the href attribute to create a link that opens the user's email program (to let them send a new email):</pre>
+
+    <h2>Link to an Email Address</h2>
+
+<p>To create a link that opens in the user's email program (to let them send a new email), use mailto: inside the href attribute:</p>
+
+<a href="https://mail.google.com/">Send Mail</a>
+
+<button onclick="myFunction()">Click me</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
+</script>
+
+<h3>HTML LINK COLOR</h3>
+<div>
+
+</div>
+
+
+
+<div>
+    <h3>Bookmark tags</h3>
+    <p><a href="#C4">Capter 4</a></p>
+    <h3 id="C1">Chapter 1</h3>
+    <p>book contant</p>
+    <h3 id="C2">Chapter 2</h3>
+    <p>book contant</p>
+    <h3 id="C3">Chapter 3</h3>
+    <p>book contant</p>
+    <h3 id="C4">Chapter 4</h3>
+    <p>book contant</p>   
+</div>
+
+
+<scan style="font-size: large;">button link</scan><br>
+<a class ="buttom-link" href="www.google.com">click here</a>
+
+
+
+
+</body>
+
+</html>

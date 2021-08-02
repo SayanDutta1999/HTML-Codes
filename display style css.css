@@ -1,0 +1,15 @@
+.image{
+    height: 150px;
+    width: 140px;
+}
+.imagediv
+{
+    display: inline;
+}
+
+.menu
+{
+    display: block;
+    /* visibility: hidden; */
+    display:block;
+}

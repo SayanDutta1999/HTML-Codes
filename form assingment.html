@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Assignment</title>
+    <style>
+        body{
+            background-color: #64c2c2;
+        }
+        #registretion{
+            width: 300px;
+            background-color: whitesmoke;
+            padding: 24px;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+        .style_label{
+            color:black;
+            
+
+        }
+        .input_item{
+            width: 100%;
+        }
+        #terms_checked{
+            margin-top: 12px;
+            margin-bottom: 12px;
+             
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center;">Sign Up</h2>
+     <form id="registretion" method="POST" autocomplete="on" >
+         <fieldset>
+             <legend>Personal Data</legend>
+             <div> 
+                <label class="style_label" for="username">Full name:</label><br>
+                <input class="input_item"  type="text" name="username" placeholder="Enter your full name "><br>
+            </div>
+            <div>
+                <label class="style_label" for="email">Email:</label><br>
+                <input class="input_item" type="email" name="email" placeholder="Enter your Email"><br>
+            </div>
+            <div>
+                <label class="style_label" for="password">Password:</label><br>
+                <input class="input_item" type="password" name="password" placeholder="Enter your password"><br>
+            </div>
+            <div>
+                <label class="style_label" for="Confirm_Password">Confirm Password:</label><br>
+                <input class="input_item" type="password" name="Confirm_Password" placeholder="Confirm your password"><br>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Gender</legend>
+            <div>
+                <label class="style_label"  for="Gender">Gender:</label><br>
+                <input  type="radio" name="Gender"  value="male">Male</input>
+                <input  type="radio" name="Gender"  value="female">Female</input>
+                <input  type="radio" name="Gender"  value="Trans">Trans</input>
+            </div>
+        </fieldset>
+            <div>
+                <label class="style_label" for="Security_Question">Security Question:</label><br>
+                <select class="input_item" name="Security_Question">for drop down menu we also use select tag
+                <option value="option">for option we use option tag in forms</option>
+                <option value="first_school_name">What was your first School name</option>
+                <option value="nick_name">What is your nick name</option>
+                </select>
+            </div>
+            <div>
+                <textarea class="input_item" name="answers" rows="6" cols="30"></textarea>
+            </div>
+             <div>
+                <input id="terms_checked" type="checkbox" name="terms_conditions" value="accept">
+                I agree to accept terms and conditons.
+            </div>
+            <div>
+                <input  type="submit" value="Register">
+            </div>
+    </form>
+</body>
+</html>

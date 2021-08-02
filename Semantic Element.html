@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Element</title>
+    <style>
+       
+        #header{
+            background-color: beige;
+            padding: 20px;
+        }
+        .navber{
+            background-color: royalblue;
+            padding: 12px;
+
+        }
+        #main_section{
+            
+            padding: 24px;
+            background-color: deepskyblue;
+        }
+        #section{
+            background-color: lightgreen;
+            padding: 16px;
+         }
+         .article_1{
+             background-color: gray;
+             padding: 16px;
+             margin-top: 16px;
+             margin-bottom: 16px;
+             
+         }
+         .article_2{
+            background-color: gray;
+             padding: 16px;
+             margin-top: 16px;
+             margin-bottom: 16px;
+
+         }
+         #footer{
+             background-color: gray;
+             padding: 24px;
+         }
+
+    </style>
+</head>
+<body style="margin: 0%;">
+    <header id="header">
+        <h1 style="font-size: small;">header</h1>
+        <nav class="navber">
+            <h1 style="font-size: small;">nav</h1>
+             <span style="color: aquamarine;">Home</span>
+             <span style="color: aquamarine;">Event</span>
+             <span style="color: aquamarine;">Contact</span>
+             <span style="color: aquamarine;">About</span>
+        </nav>
+    </header>
+    <details>
+        
+        <summary>This is a summery tag under details tag</summary>
+        <p> this is hidden</p>
+    </details>
+   
+         <main id="main_section">
+        <h1 style="font-size: small;">main</h1>
+        <section id="section">
+            <h1 style="font-size: small;">section</h1>
+            <article class="article_1">
+                <h1 style="font-size: small;">article1</h1>
+                <header>
+                    <details>
+                   <h3>Article title one under header tag</h3>
+                    <a href="/1st img for html.jpg">Author one</a>
+                </details>
+               
+                </header>
+                <p>sayan dutta </p>
+
+            </article>
+            <article class="article_2">
+                <h1 style="font-size: small;">article2</h1>
+                <header>
+                    <details>                    
+                    <h3>Article title two under header tag</h3> 
+                    <a href="/html css.html">Author two</a>
+                </details>
+
+                </header>
+                <p>pritam ghosh</p>
+            </article>
+        </section>
+    </main>
+
+
+    <footer id="footer">
+        <span>Copy Right 2021</span>
+    </footer>
+    
+</body>
+</html>
