@@ -27,6 +27,9 @@ console.log(typeof(parseInt(strNum3)))  //Number
 
 // parseFloat() which takes string  numeral as input and returns a Float number.
 
+console.log(parseFloat(strNUm1))
+console.log(typeof(parseFloat(strNUm1)))
+
 console.log(parseFloat(strNUm2))
 console.log(typeof(parseFloat(strNUm2)))
 
