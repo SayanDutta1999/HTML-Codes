@@ -51,3 +51,16 @@ console.log(firstname + lastname)
 
 var extraspace = '        sayan      '
 console.log(extraspace.trim())
+
+// charAt() - this take a argument as an arg returns the charater at that position
+
+console.log(MyFirstString.charAt(5))
+
+// Split splits our string on the basis of the arguments passed
+
+console.log(MyFirstString.split(" "))
+
+console.log(MyFirstString.split())
+
+var MyFirstString3 = "This,is,a,String,for,javascript,string,function"
+console.log(MyFirstString3.split(","))
